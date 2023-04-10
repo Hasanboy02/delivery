@@ -1,0 +1,663 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+   
+}
+
+/* Header */
+
+header{
+    height: 800px;
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    border-radius: 0px;
+
+}
+.header__wrapper {
+    display: flex;
+    justify-content: center; 
+    align-items:center;
+    padding-top: 20px;
+}
+
+.header_logo img{
+    display: block;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+     padding-left: 655px; 
+    gap: 30px;
+}
+
+.header__link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.header__img{
+    padding-bottom: 277px;
+    margin-top: 60px;
+    background-image: url(./images/header_img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right -30px;
+}
+
+.header__content{
+    padding-left: 85px;
+    padding-top: 180px;
+    
+}
+
+
+.header__content h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+
+}
+
+
+.header__content p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+
+.header__content a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 20px 40px;
+    background: #FC0A7E;
+    padding-top: 25px;
+}
+
+.header__icon{    
+text-align: center;
+padding-bottom:300px !important;
+}
+
+/* End Of Header */
+
+/* Sectiion Nullam */
+
+.nullam__box{
+    height: 957px;
+    background:#1B1B1B;
+}
+
+.nullam__box{
+    background-image: url(./images/palanshet.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right 30px;
+}
+
+.nullam__box p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    padding-top: 100px;
+}
+
+.nullam__box h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+/* End Of Nullam */
+
+
+.salat{
+    display: flex;
+    margin-top: 80px;
+
+}
+
+.salat__text{
+    padding-top: 268px;
+    padding-left:170px ;
+}
+
+.menyu__item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+}
+
+.salat__text h3{
+    padding: 30px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #000000
+}
+
+.salat__text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+}
+
+.salat__img{
+padding-left: 280px;
+}
+
+.amet{
+display: flex;
+margin-top: 160px;
+}
+
+.amet img{
+padding-left: 150px;
+}
+
+.amet__text{
+padding-left: 340px;
+padding-top: 140px;
+}
+
+.amet h3{
+padding: 30px 0;
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 48px;
+color: #000000;
+}
+
+.amet p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+}
+
+.porta{
+display: flex;
+margin-top: 160px;
+}
+
+.porta__text{
+padding-top: 120px;
+padding-left: 170px;
+}
+
+.porta h3{
+padding: 30px 0;
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 48px;
+color: #000000;
+}
+
+.porta p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+}
+
+.porta img{
+padding-left: 290px;
+}
+
+/* End of Menyu */
+
+/* Section Activity */
+
+.activity__box{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 102px;
+    padding-right: 102px;
+    margin-top: 100px;               
+}
+
+.activity__list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 60px;  
+}
+
+
+.activity__list-item{
+text-align: center;
+}
+
+.activity__list-item h3{
+padding-top: 40px;
+padding-bottom: 17px;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+}
+
+.activity__list-item p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+}
+
+/* End Of Activity */
+
+/* Seciton Nibh */
+
+.nibh__time{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 102px;
+    padding-right: 102px;
+    margin-top: 170px; 
+}
+
+.nibh__list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 160px; 
+}
+
+.nibh__list-item{
+text-align: center;
+}
+
+.nibh__list-item h2{
+padding-bottom: 10px;
+font-style: normal;
+font-weight: 400;
+font-size: 59px;
+line-height: 90px;
+}
+
+.nibh__list-item p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+/* End Of Nibh */
+
+/* Section  Risus*/
+
+.risus__box{
+    display: flex;
+    padding-left: 210px;
+    margin-top: 180px;
+
+}
+
+.risus__text{
+    max-width:330px; 
+
+}
+
+.risus__text h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    padding:30px 0;
+}
+
+.risus__text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+}
+
+.risus__box img{
+padding-left: 82px;
+}
+
+.tortor{
+    display: flex;
+    padding-left: 160px;
+    margin-top: 180px;
+}
+
+.tortor__text{
+    max-width:380px; 
+    margin-top: 15px;
+    padding-left: 77px;
+}
+
+.tortor__text h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    padding:30px 0;
+}
+
+.tortor__text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+
+}
+
+.risus_img{
+   text-align: center;
+   padding-top: 150px;
+
+}
+
+.coment{
+max-width: 1224px;
+height: 200px;
+padding-top: 70px;
+margin: 0 auto;
+justify-content: center;
+}
+.coment p{
+    text-align: center;
+    width:700px ;
+    margin: 0 auto;
+    margin-top: 66px ;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.home{
+display: flex;
+margin: 0 auto;
+justify-content: center;
+}
+
+
+.home h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    text-align: center;
+    
+    color: #6B6B6B;
+}
+
+.home h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    text-align: center;
+    
+    color: #6B6B6B;
+}
+.home__line{
+    width: 30px;
+    height: 1px;
+    left: calc(50% - 30px/2 - 10px);
+    top: calc(50% - 1px/2 - 4.88px);
+    background: #D3D3D3;
+    border-radius: 0px;
+    margin:14px 20px 0px 20px;
+}
+
+.kavadrat{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 15px;
+    padding-right: 10px;
+}
+
+.kavadrat1{
+    width: 7px;
+    height: 7px;
+    left: calc(50% - 7px/2 - 11.5px);
+    top: 11.76px;
+    background: #222222;
+    margin-top: 300px;
+}
+
+.kavadrat2{
+    width: 7px;
+    height: 7px;
+    left: calc(50% - 7px/2 + 11.5px);
+    top: 11.76px;
+    background: rgba(34, 34, 34, 0.4);
+    margin-top :300px;
+}
+
+.logo__img{
+text-align: center;
+margin-top: 142px;
+}
+
+.tel__box{
+max-width: 1440px;
+height: 500px;
+}
+.tel__box{
+margin-top: 118px;
+background-image: url(./images/tel.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: bottom;
+}
+
+/* End Of Risus */
+
+.ready__img{
+
+background-image: url(./images/Group.svg);
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+
+
+.ready__box{
+     max-width: 1440px;
+     height: 473px;
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063 !important;
+}
+
+
+
+.ready__box h2{
+text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 48px;
+color: #FFFFFF;
+padding-top: 165px;
+}
+
+.ready__link{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.ready__link1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 20px 40px;
+    background: #FC0A7E;
+    
+}
+
+.ready__link2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 1px solid #B04BB3;
+    margin-left: 10px;
+    
+
+}
+
+/* End Of Ready */
+
+/* Section Botyom */
+
+.bottom{
+    height: 463px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  background: #1B1B1B;
+  border-radius: 0px;
+  }
+.bottom h2{
+    font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  padding-top: 129px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+.bottom p{
+    font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 20px;
+  color: #6B6B6B;
+  }
+  .form{
+    padding-top: 40px;
+    text-align: center;
+    gap: 0px;
+  }
+  .enter{
+    background: #FFFFFF;
+  box-shadow: 0px 0px 0px #FC0A7E;
+  border-radius: 3px 0px 0px 3px;
+  padding: 22px 155px 22px 3px ;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+.submit{
+    background: #FC0A7E;
+  border-radius: 0px 3px 3px 0px;
+  padding: 22px 30px 22px 30px ;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 0;
+  text-align: center;
+}
+/* End Of Bottom */
+/* End Of Main */
+
+/* Footer */
+
+.footer__site{
+    height: 242px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #1B1B1B;
+    border-radius: 0px;  
+}  
+
+.footer__site img{
+    display: block;
+    margin: 0 auto;
+}
+  
+.footer__list{
+    text-align: center;
+    margin-top: 29px;
+    gap: 30px;
+}
+
+.footer__link{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #6B6B6B;
+}
+
+/* End Of Footer */
+
