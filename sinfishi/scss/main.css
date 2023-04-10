@@ -1,0 +1,27 @@
+.btn {
+  display: inline-block;
+  border: 1px solid black;
+  color: white;
+  background-color: orange;
+  padding: 8px 15px;
+  text-decoration: none;
+  margin: 30px;
+}
+.btn:hover {
+  color: orange;
+  background-color: white;
+}
+
+.button {
+  display: inline-block;
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+  padding: 8px 15px;
+  text-decoration: none;
+  margin: 30px;
+}
+.button:hover {
+  color: white;
+  background-color: black;
+}/*# sourceMappingURL=main.css.map */

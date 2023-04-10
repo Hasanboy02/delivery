@@ -1,0 +1,88 @@
+// @use "variables";
+
+ @use "variables" as * with(
+   $color:black,
+ ) ;    
+
+
+
+
+// %button {
+// color: red;
+// border: 1px solid black;
+// }
+
+// .button {
+//  color:red;
+//  border: 1px solid black;
+//  font-size: $font-size
+// }
+
+// $font-size:18px;
+
+// .btn {
+//  @extend .button;
+//  background-color: $color;
+//  font-size: $font-size;
+// }
+
+// @mixin button($color: red, $borderColor: black, 
+//   $fontSize:18px, $bg-color: black) {
+//   display: inline-block;
+//   color: $color;
+//   font-size: $fontSize;
+//   padding: 10px 8px;
+//   border-radius: 1px solid $borderColor;
+//   margin: 40px;
+//   background-color: $bg-color;
+//   text-decoration: none;
+
+//   &:hover {
+//    color: $bg-color;
+//    background-color: $color;
+//   }
+// }
+
+
+// .btn{
+//    @include button( white, black, black)
+// }
+
+// .button{
+//   @include button(white,purple,18px , rgb(166, 0, 255))
+// }
+
+
+// .mybtn{
+//   @include button(black,black ,18px , white)
+// }
+
+@mixin btn($color,$bg) {
+  display: inline-block;
+  border: 1px solid black;
+  color:$color;
+  background-color: $bg;
+  padding: 8px 15px;
+  text-decoration: none;
+  margin: 30px;
+
+  &:hover{
+    @if $bg == transparent {
+      color: white;
+    }
+    @else {
+      color: $bg;
+    }
+    background-color: $color;
+  }
+
+}
+
+
+.btn{
+  @include btn (white,orange);
+}
+
+.button{
+  @include btn (black,transparent);
+}
